@@ -19,6 +19,7 @@ public class antJenRevisionClass {
 		driver.findElement(By.name("q")).sendKeys("Jenkins");
 		
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		System.out.println("Comments added for webhook verification");
 		driver.quit();
 	}
 
